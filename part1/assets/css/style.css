@@ -1,0 +1,225 @@
+<style>
+
+body {
+	font-size: 14px;
+	width: 960px;
+}
+
+/*nav bar*/ body { padding-top: 70px; }
+
+
+body{
+	background-image: url("../images/background.png");
+}
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+/*.title {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	color: white;
+	background-color: #4aaaa5;
+	width: 280px;
+	height: 70px;
+	padding-top: 15px;
+	text-align: center;
+	margin-left: 20px; 
+	
+}
+
+.top-nav-menu {
+	background-color: #ffffff;
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	
+}
+
+.menulinks {
+	color:#777777;
+	background-color:#ffffff;
+	word-spacing: 25px;
+	float: right;
+	margin-top: -45px;
+	margin-right: 60px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.hr {
+	border-style: solid;
+	color: #dddddd;
+}
+
+/*About*/
+
+.content{
+	width: 650px;
+	background-color: #ffffff;
+	padding: 10px;
+	border: 2px;
+	border-style: solid;
+	border-color: #dddddd;
+	float: left;
+	margin: 20px;
+}
+
+.about {
+	border: 2px;
+	border-color: #dddddd;
+	padding: 50px; 
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: -30px;
+}
+	
+.profilepic {
+	float: left;
+	width: 250px;
+	height: 250px;
+	padding: 15px;
+	margin: 10px;
+}
+
+.heading {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 10px;
+	color: #4aaaa5;
+	background-color: #ffffff;
+	
+}
+
+.socials {
+	position: absolute;
+	padding:20px;
+	padding-bottom: 30px;
+	width:270px;
+	background-color:#ffffff;
+	top: 92px;
+	right:15px;
+	border: 2px;
+	border-style: solid;
+	border-color: #dddddd;
+	text-align: center;
+}
+
+.sicons {
+	width: 48px;
+	height: 48px;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: #777777;
+}
+a:visited {
+	color: #777777;
+}
+a:hover {
+	text-decoration: underline;
+	color: #4aaaa5;
+}
+
+
+
+
+/*contactpage*/
+.form{
+	background-color: #ffffff;
+	float: left;
+	padding: 20px;
+	line-height: 25px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input {
+	width: 400px;
+	padding: 10px;
+}
+
+button {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+}
+button:hover {
+	opacity: .50;
+}
+
+/*portfolio*/
+
+.portbox{
+	position: relative;
+	float: left;
+	height: 175px;
+	width: 220px;
+	padding-left: 70px;
+
+}
+
+ .imgport{
+ 	height: 150px;
+ 	width: 200px;
+ 	border:1px;
+ 	border-style: solid;
+ 	border-color: #cccccc;
+ }
+ .imgport:hover{
+ 	opacity: .50;
+ }
+
+.labels {
+	position: absolute;
+	left: 20;
+	top: 100px;
+	color: white;
+	background-color: #4aaaa5;
+	width: 199px;
+	height: 38px;
+	text-align: center;
+	padding-top: 12px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+
+
+*/
+/*footer*/
+
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}
+.footer {
+text-align: center;
+padding: 20px;
+background-color: #666666;
+border-top: 10px;
+border-top-color: #4aaaa5;
+border-top-style: solid;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+}
+
+
+
+
+</style>
