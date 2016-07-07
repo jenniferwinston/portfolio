@@ -63,9 +63,24 @@ section {
 
 
 @media only screen and (max-width: 768px) {
-	/* Add your code here */
+	.content-wrapper {
+		background-color: lightgreen;
+		width: 80%;
+	}
+	section {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 640px) {
-	/* Add your code here */
+	.content-wrapper {
+		background-color: pink;
+	}
+	.about-me img {
+		width:100%;
+	
+	}
+	
 }
+
+
