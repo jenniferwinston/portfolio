@@ -1,90 +1,191 @@
 <!DOCTYPE html>
-<html lang='en'>
-<head>
-		<title>Jennifer Winston Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SHIELD - Free Bootstrap 3 Theme">
+    <meta name="author" content="Carlos Alvarez - Alvarez.is - blacktie.co">
+ 
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"
+    <title>Jennifer Winston Portfolio</title>
 
-</head> 
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-<body>	
-<div class="wrapper">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link href="assets/css/animate-custom.css" rel="stylesheet">
 
-<!--Nav Menu-->
+	<script src="https://use.fontawesome.com/982510734c.js"></script>
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Jennifer Winston</a>
+ <!--  <body data-spy="scroll" data-offset="0" data-target="#navbar-main"> -->
+  
+  
+  	<div id="navbar-main">
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon icon-diamonds" style="font-size:30px; color:#3498db;"></span>
+          </button>
+          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-diamonds" style="font-size:18px; color:#3498db;"></span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="index.html">About</a></li>
+			<li> <a href="portfolio.html">Portfolio</a></li>
+			<li> <a href="contact.html">Contact</a></li>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
     </div>
 
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li> 
-    </ul>
-  </div>
-</nav>
+  
+  
+		<!-- ==== HEADERWRAP ==== -->
+	    <div id="headerwrap" id="home" name="home">
+			<header class="clearfix">
+	  		 		<h1><span class="icon icon-diamonds"></span></h1>
+	  		 		<p><strong>JENNIFER WINSTON'S PORTFOLIO</strong></p>
+	  		 		<p>About Me</p>
+	  		</header>	    
+	    </div><!-- /headerwrap -->
 
+		<!-- ==== GREYWRAP ==== -->
+		<div id="greywrap">
+			<div class="row">
+				<div class="col-lg-4 callout">
+					<span class="icon icon-stack"></span>
+					<h2>Web Developer</h2>
+					<p>Design and develop ideas and turn them into unique websites using multiple languages. </p>
+				</div><!-- col-lg-4 -->
+					
+				<div class="col-lg-4 callout">
+					<span class="icon icon-bubble-2"></span>
+					<h2>Marketing Strategist</h2>
+					<p>Use targeting, branding, planning, social media and multiple outputs to market a brand. </p>
+				</div><!-- col-lg-4 -->	
+				
+				<div class="col-lg-4 callout">
+					<span class="icon icon-camera"></span>
+					<h2>Creative Photographer</h2>
+					<p>Photograph portraits and weddings in my personal style of photography. </p>
+				</div><!-- col-lg-4 -->	
+			</div><!-- row -->
+		</div><!-- greywrap -->
 
-
-<!--Heading-->
-	<section>
-	
-		<h1>About Me</h1>
-		<hr class="hr"></hr>
-<!--Main Section-->
-			
-			<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/078/113/1ea5f1a.jpg" class="img-rounded" alt="jenspic">
-
-			<div class="">
-				<p><strong>Welcome to my Page!</strong><br>I am Jennifer and this is my online portfolio page. A little about me, I graduated from the University of Central Florida, Go Knights! I graduated in May of 2015 with a Bachelors in Business Marketing and a certificate in Services Marketing. </p>
-
-				<br>				
-				<p><strong>Some Fun Facts About Me</strong></p>
-			<ul>
-				<li> I am a portrait and wedding photographer.</li>
-				<li> I am a scuba certified diver.</li>
-				<li> I have completed two half marathons.</li>
-				<li> I love the beach and being on the water.</li>
-			</ul>
-			</div>
+<br>
+<br>
+<!--- ======My Pics=====-->
+		<div class="container" id="portfolio" name="portfolio">
 		
-	</section>
+			
+				<!-- PORTFOLIO IMAGE 1 -->
+				<div class="col-md-4 ">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/aboutpic1.jpg" alt="">
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+						 
+				<!-- PORTFOLIO IMAGE 2 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/aboutpic2.jpg" alt="">
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+				<!-- PORTFOLIO IMAGE 3 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/aboutpic3.jpg" alt="">
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
 
-<!--Connect With Me-->
-		<div class="">
-			<div class="">
-			<h3>Connect with Me</h3>
-			</div>
-			<hr class="hr"></hr>
+
+
+
+		
+		<!-- ==== ABOUT ==== -->
+		
+			<div class="row white">
 			<br>
-			
-				<p>
-					<a href="https://github.com/jenniferwinston" target=_'blank'>
-						<img class="sicons" src="assets/images/github.png" alt="GitHub"></a>
-
-					<a href="https://www.linkedin.com/in/winstonjennifer9" target=_'blank'> <img class="sicons" src="assets/images/linkedin.png" alt="LinkedIn" ></a>
-
-					<a href="http://stackexchange.com/users/8673443/jenniferwinston" target=_'blank'> <img class="sicons" src="assets/images/stackover.png" alt="StackOverFlow"></a>
-
+				<h1 class="centered">A LITTLE ABOUT JENNIFER</h1>
+				<hr>
+				
+				<div class="col-lg-6">
+				
+					<p>Welcome! I am Jennifer and I am sharing my online portfolio. A little about me, I graduated from the University of Central Florida, Go Knights <span class="icon icon-knight"></span> I graduated in May of 2015 with a Bachelors in Business Marketing and a certificate in Services Marketing. I have knowledge and experience in web development, portrait and wedding photography, and marketing strategy and development.</p>
+				</div><!-- col-lg-6 -->
+				
+				<div class="col-lg-6">
+					<p><strong>Some Fun Facts About Me</strong></p>
+                    <ul>
+                    <li> I am a portrait and wedding photographer.</li>
+                    <li> I am a scuba certified diver.</li>
+                    <li> I have completed two half marathons.</li>
+                    <li> I love the beach and being on the water.</li>
+                    </ul>
+				</div><!-- col-lg-6 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+		<!-- ==== SECTION DIVIDER1 -->
+		<section class="section-divider textdivider divider1">
+			<div class="container">
+				
+				<p>Happiness lies in the joy of achievement and the thrill of creative effort. </p>
+				<p>- Franklin D. Roosevelt
 				</p>
-			
+			</div><!-- container -->
+		</section><!-- section -->
+		
+		
+<!-- ===Footer-->
+		<div id="footerwrap">
+			<div class="container">
+				<h4>Created by Jennifer Winston- Copyright 2016</h4>
+				
+					<a href="https://github.com/jenniferwinston" target="_blank" ><i class="fa fa-lg fa-github"></i></a>   |
 
+                     <a href="https://www.linkedin.com/in/winstonjennifer9" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a>   |
+
+                     <a href="http://stackexchange.com/users/8673443/jenniferwinston" target="_blank"><i class="fa fa-lg fa-stack-overflow"></i></a>
+
+
+			</div>
 		</div>
 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		
 
-
-<!--footer-->          
-            <div class="push"></div>
-        	</div>
-        	<div class="footer">
-            <p>Copyright (c) 2016</p>
-        	</div>		
-	</body>
-	
-	
-	
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/retina.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+  </body>
 </html>
